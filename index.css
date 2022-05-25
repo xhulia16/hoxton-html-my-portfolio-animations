@@ -47,11 +47,19 @@
         background-color: rgb(86, 39, 92);
         display: grid;
     place-items: center;
-        padding: 5rem 1rem;
+        padding: 1rem;
       }
-      .svg-image{
-        width:500px;
-        margin:50px;
+      
+      .top{
+display: grid;
+grid-auto-flow: column;
+column-gap: 50px;
+place-items: center;
+      }
+
+    svg{
+        width:400px;
+        margin:6px;
       }
        
       .description{
@@ -59,10 +67,11 @@
           background-color: rgb(153, 17, 58);
           color:rgb(241, 231, 231);
           place-items: center;
-          width: 500px;
+          width: 300px;
+          height: fit-content;
           font-family: 'Courier New', Courier, monospace;
           border: 8px double rgb(53, 12, 37);
-          padding: 20px;
+          padding: 10px;
       }
       .expand{
         position: relative;
