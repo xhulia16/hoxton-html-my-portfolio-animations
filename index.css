@@ -60,23 +60,49 @@
         display: grid;
         grid-auto-flow: column;
         column-gap: 50px;
-        list-style: none;  
+        list-style: none;       
     }
+
+
       .project1{
         border: 8px dotted rgb(241, 231, 231);
         margin: 20px;
         padding: 20px;
+        transition: 0.3s;
       }
-      .project2{
+      .project1:hover {
+        background-color: rgb(153, 17, 58);
         border: 8px dotted rgb(241, 231, 231);
         margin: 20px;
         padding: 20px;
       }
 
+      .project2{
+        border: 8px dotted rgb(241, 231, 231);
+        margin: 20px;
+        padding: 20px;
+        transition: 0.3s;
+      }
+
+      .project2:hover{
+        background-color: rgb(153, 17, 58);
+        border: 8px dotted rgb(241, 231, 231);
+        margin: 20px;
+        padding: 20px;
+        transition: 0.3s;
+      }
       .project3{
         border: 8px dotted rgb(241, 231, 231);
         margin: 20px;
         padding: 20px;
+        transition: 0.3s;
+      }
+      .project3:hover{
+        background-color: rgb(153, 17, 58);
+        border: 8px dotted rgb(241, 231, 231);
+        margin: 20px;
+        padding: 20px;
+        transition: 0.3s;
       }
       .image-one{
         background-image: url("image1.PNG");
