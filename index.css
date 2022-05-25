@@ -64,7 +64,14 @@
           border: 8px double rgb(53, 12, 37);
           padding: 20px;
       }
-
+      .expand{
+        position: relative;
+        animation: movement 2s infinite;
+      }
+      @keyframes movement {
+        from {top: 0px;}
+        to {top: 100px;}
+      }
       .projects {
         background-color: rgb(60, 31, 128);
         display: grid;
