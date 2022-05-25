@@ -142,12 +142,52 @@
         column-gap: 60px;
         list-style: none;  
 }
+.experience-list__one{
+  border: 8px double rgb(241, 231, 231);
+  margin: 20px;
+  padding: 20px;
+  transition: 0.3s;
+}
+.experience-list__one:hover{
+  background-color: rgba(142, 26, 231, 0.466);
+  border: 8px double rgb(241, 231, 231);
+  margin: 20px;
+  padding: 20px;
+}
+
+.experience-list__two{
+  border: 8px double rgb(241, 231, 231);
+  margin: 20px;
+  padding: 20px;
+  transition: 0.3s;
+}
+.experience-list__two:hover{
+  background-color: rgba(142, 26, 231, 0.466);
+  border: 8px double rgb(241, 231, 231);
+  margin: 20px;
+  padding: 20px;
+}
+
+.experience-list__three{
+  border: 8px double rgb(241, 231, 231);
+  margin: 20px;
+  padding: 20px;
+  transition: 0.3s;
+}
+.experience-list__three:hover{
+  background-color: rgba(142, 26, 231, 0.466);
+  border: 8px double rgb(241, 231, 231);
+  margin: 20px;
+  padding: 20px;
+}
       .icon1{
         background-image: url("gmail.png");
         background-repeat: no-repeat;
         background-size: contain;
         height: 50px;
+        transition: 0.3s;
       }
+      
 
       .icon2{
         background-image: url("youtube.png");
