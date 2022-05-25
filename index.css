@@ -47,7 +47,7 @@
         background-color: rgb(86, 39, 92);
         display: grid;
     place-items: center;
-        padding: 15rem 1rem;
+        padding: 5rem 1rem;
       }
       .svg-image{
         width:500px;
