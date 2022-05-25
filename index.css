@@ -25,9 +25,24 @@
     a{
         font-family: 'Courier New', Courier, monospace;
         color: rgb(241, 231, 231);
+        text-decoration: none;
+        transition:0.3s;
 
     }
     
+    a:hover{
+      font-family: 'Courier New', Courier, monospace;
+      color: rgb(255, 244, 244);
+      text-decoration: underline;
+
+  }
+
+  a:active{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(32, 0, 18);
+    text-decoration: underline;
+
+}
       .main {
         background-color: rgb(86, 39, 92);
         display: grid;
@@ -185,7 +200,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         height: 50px;
-        transition: 0.3s;
+        align-items: center;
       }
       
 
