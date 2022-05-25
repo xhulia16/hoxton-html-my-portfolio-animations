@@ -59,9 +59,19 @@ place-items: center;
 
     svg{
         width:400px;
-        margin:6px;
+        margin:6px;}
+
+   .circle-mov{
+    position: relative;
+    animation: circle-movement 3s infinite;
+   }     
+     
+      @keyframes circle-movement {
+        50%{
+        transform: translate(50px, 10px);
+        }
+
       }
-       
       .description{
           display:grid;
           background-color: rgb(153, 17, 58);
